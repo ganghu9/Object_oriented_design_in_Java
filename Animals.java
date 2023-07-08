@@ -1,4 +1,4 @@
-public class Animals {
+public abstract class Animals {
 
     String species;
     int age;
@@ -27,7 +27,7 @@ public class Animals {
     }
 
 
-    // public void move();
+    public abstract void move();
 
 
     // public void fly(){

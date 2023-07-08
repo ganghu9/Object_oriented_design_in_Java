@@ -9,4 +9,11 @@ public class Bird extends Animals{
     //     System.out.println("flying....");
 
     // }
+
+    public void move(){
+        System.out.println("Bird is flapping wings....");
+
+    }
+
+
 }
