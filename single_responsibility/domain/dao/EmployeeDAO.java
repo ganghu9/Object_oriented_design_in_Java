@@ -1,4 +1,8 @@
+package domain.dao;
 // DAO stands for data access objects
+
+import domain.Employee;
+
 public class EmployeeDAO {
 
 //     public EmployeeDAO (Employee employee) {

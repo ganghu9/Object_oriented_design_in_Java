@@ -4,8 +4,8 @@ public class Zoo {
         // Animals animal01 = new Animals("Tiger", 10, "male", 100);
         // Animals animal02 = new Animals("Peacock", 15, "female", 80);
         // Animals animal03 = new Animals("Zebra", 8, "male", 100);
-        Fish fish01 = new Fish("Shark", 3, "male", 50);
-        Bird bird01 = new Bird("Eagle", 10, "male", 20);
+        // Fish fish01 = new Fish("Shark", 3, "male", 50);
+        // Bird bird01 = new Bird("Eagle", 10, "male", 20);
 
 
         // animal01.speak();
