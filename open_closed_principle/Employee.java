@@ -1,4 +1,4 @@
-public class Employee {
+abstract public class Employee {
 
     private int id;
     private String name;
@@ -11,6 +11,9 @@ public class Employee {
         this.department = department;
         this.working = working;
     }
+
+    public abstract void performDuties();
+
 
     public String toString() {
         return "Employee [id = " + id + ", name = " + name + "department = " + department +

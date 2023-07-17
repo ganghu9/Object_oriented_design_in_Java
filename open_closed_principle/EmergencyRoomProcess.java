@@ -6,6 +6,9 @@ public class EmergencyRoomProcess {
         Employee peggy = new Nurse(1, "Peggy", "Emergency", true);
         ERDirector.callUpon(peggy);
         
+
+        Employee suzan = new Doctor(2, "Suzan", "Emergency", true);
+        ERDirector.callUpon(suzan);
     }
     
 }

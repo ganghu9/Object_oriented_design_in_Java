@@ -5,12 +5,19 @@ public class Doctor extends Employee {
         System.out.println("Doctor in action...");
     }
 
-    // public void prescribeMedicine() {
-    //     System.out.println("Prescribe Medicine");
-    // }
+    private void prescribeMedicine() {
+        System.out.println("Prescribe Medicine");
+    }
 
-    // public void diagnosePatients() {
-    //     System.out.println("Diagnose Patients");
-    // }
+    private void diagnosePatients() {
+        System.out.println("Diagnose Patients");
+    }
+
+    public void performDuties() {
+        prescribeMedicine();
+        diagnosePatients();
+    }
+
+
 
 }

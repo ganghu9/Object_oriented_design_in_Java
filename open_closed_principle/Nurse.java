@@ -5,4 +5,25 @@ public class Nurse extends Employee {
         System.out.println("Nurse in action...");
     }
 
+    private void checkVitalSigns() {
+        System.out.println("Checking vitals...");
+    }
+
+    private void drawBlood() {
+        System.out.println("Drawing blood...");
+    }
+
+    private void cleanPatientArea() {
+        System.out.println("Cleaning patient area...");
+    }
+
+    public void performDuties() {
+        checkVitalSigns();
+        drawBlood();
+        cleanPatientArea();
+    }
+
+
+
+
 }
