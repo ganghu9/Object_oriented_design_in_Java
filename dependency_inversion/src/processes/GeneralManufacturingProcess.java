@@ -1,6 +1,5 @@
 package processes;
 
-import javax.swing.event.DocumentEvent;
 
 public abstract class GeneralManufacturingProcess {
 
