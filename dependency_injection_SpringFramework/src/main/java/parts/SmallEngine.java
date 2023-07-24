@@ -1,3 +1,5 @@
+package parts;
+
 public class SmallEngine implements Engine {
 
     private int horsePower;

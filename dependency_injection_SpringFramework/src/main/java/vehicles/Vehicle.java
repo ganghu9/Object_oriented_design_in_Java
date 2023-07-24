@@ -1,10 +1,14 @@
+package vehicles;
+
+import parts.Engine;
+
 public class Vehicle {
 
-//    Engine racingEngine = new LargeEngine(600);
-    Engine myEngine;
-    Tire myTire;
-    WindShield myWindShield;
-    Roof myRoof;
+//    parts.Engine racingEngine = new parts.LargeEngine(600);
+    private Engine myEngine;
+//    Tire myTire;
+//    WindShield myWindShield;
+//    Roof myRoof;
 
 
 
